@@ -139,7 +139,7 @@ async def cb_handler(Client, query: CallbackQuery):
                   reply_markup=InlineKeyboardMarkup(MAIN),
         )
     
-@Legend_of_all_groups. on_message(filters.command(["help", f"help@{BOT_USERNAME}"], prefixes=["","+", ".", "/", "-", "?", "$"]))
+@Mukesh.on_message(filters.command(["help", f"help@{BOT_USERNAME}"], prefixes=["","+", ".", "/", "-", "?", "$"]))
 async def restart(client, message):
     hmm = await message.reply_text(
                         text = HELP_READ,
