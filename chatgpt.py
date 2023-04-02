@@ -212,7 +212,7 @@ if __name__ == "__main__":
     print(f""" {BOT_NAME} ɪs ᴀʟɪᴠᴇ!
     """)
     try:
-        OP.start()
+        Mukesh.start()
         
         
     except (ApiIdInvalid, ApiIdPublishedFlood):
